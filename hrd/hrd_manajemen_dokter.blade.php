@@ -30,7 +30,7 @@
                     <h4 class="page-title">Dokter</h4>
                 </div>
                 <div class="col-sm-8 col-9 text-right m-b-20">
-                    <a href="../add-patient.html" class="btn btn btn-primary btn-rounded float-right"><i class="fa fa-plus"></i> Tambah Dokter</a>
+                    <a href="hrd_manajemen_dokter_tambah.blade.php" class="btn btn btn-primary btn-rounded float-right"><i class="fa fa-plus"></i> Tambah Dokter</a>
                 </div>
             </div>
             <div class="row">
