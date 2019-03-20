@@ -7,7 +7,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="../assets/img/favicon.ico">
     <title>Preclinic - Medical & Hospital - Bootstrap 4 Admin Template</title>
     <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="../assets/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/fa/css/all.css">
     <link rel="stylesheet" type="text/css" href="../assets/css/select2.min.css">
     <link rel="stylesheet" type="text/css" href="../assets/css/dataTables.bootstrap4.min.css">
     <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap-datetimepicker.min.css">
