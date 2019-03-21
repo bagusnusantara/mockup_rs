@@ -61,22 +61,22 @@
           <ul>
             <li class="menu-title">Farmasi</li>
             <li>
-              <a href="orthotimur.html"><i class="fa fa-user"></i> <span>PT. Ortho Timur</span></a>
+              <a href="../purchase/orthotimur.html"><i class="fa fa-user"></i> <span>PT. Ortho Timur</span></a>
             </li>
             <li class="submenu">
               <a href="#"><i class="fa fa-user"></i> <span>Purchase</span> <span class="menu-arrow"></span></a>
               <ul style="display: none;">
-                <li><a href="pembelianobat.html">Riwayat Pembelian</a></li>
-                <li><a class="active" href="returobat.html">Retur Pembelian</a></li>
+                <li><a href="../purchase/pembelianobat.html">Riwayat Pembelian</a></li>
+                <li><a href="../purchase/returobat.html">Retur Pembelian</a></li>
               </ul>
             </li>
             <li class="submenu">
               <a href="#"><i class="fa fa-user"></i> <span>Warehouse</span> <span class="menu-arrow"></span></a>
               <ul style="display: none;">
-                <li><a href="../warehouse/stok.html">Stok Obat</a></li>
-                <li><a href="../warehouse/mutasistok.html">Mutasi Stok</a></li>
-                <li><a href="../warehouse/adjustmentstok.html">Adjustment Stok</a></li>
-                <li><a href="../warehouse/penerimaan.html">Penerimaan</a></li>
+                <li><a href="stok.html">Stok Obat</a></li>
+                <li><a href="mutasistok.html">Mutasi Stok</a></li>
+                <li><a class="active" href="adjustmentstok.html">Adjustment Stok</a></li>
+                <li><a href="penerimaan.html">Penerimaan</a></li>
               </ul>
             </div>
           </div>
@@ -87,28 +87,8 @@
               <div class="col-lg-8 offset-lg-2">
                 <div class="card-box">
                   <div class="card-block">
-                    <h4 class="page-title">Form Retur Pembelian</h4>
+                    <h4 class="page-title">Tambah Adjustment Stok</h4>
                     <form class="">
-                      <div class="form-group">
-                        <label for="inputIdObat">Tgl Retur</label>
-                        <input type="date" name="jumlah" class="form-control" id="jumlah" aria-describedby="emailHelp" placeholder="Masukkan Jumlah Obat">
-                      </div>
-                      <div class="form-group">
-                        <label for="inputIdObat">Alasan Melakukan Retur</label>
-                        <input type="text" name="jumlah" class="form-control" id="jumlah" aria-describedby="emailHelp" placeholder="Masukkan Alasan Retur">
-                      </div>
-                      <div class="form-group">
-                        <label for="inputIdObat">Nama Pelaksana</label>
-                        <input type="text" name="jumlah" class="form-control" id="jumlah" aria-describedby="emailHelp" placeholder="Masukkan Nama Pelaksana">
-                      </div>
-                      <h4 class="page-title">Input Obat</h4>
-                      <div class="form-group">
-                        <label for="inputIdObat">Supplier</label>
-                        <select class="form-control" name="nama_supplier" id="nama_supplier">
-                          <option>Sakinah</option>
-                          <option>Pasar Baru</option>
-                        </select>
-                      </div>
                       <div class="form-group">
                         <label for="InputHargaBeli">Nama Obat</label>
                         <select class="form-control" name="nama_Obat" id="nama_Obat">
@@ -117,8 +97,12 @@
                         </select>
                       </div>
                       <div class="form-group">
-                        <label for="InputHargaBeli">Jumlah</label>
-                        <input type="text" name="jumlah" class="form-control" id="jumlah" aria-describedby="emailHelp" placeholder="Masukkan Jumlah Obat">
+                        <label for="InputHargaBeli">Jumlah Sekarang</label>
+                        <input type="text" name="jumlah" class="form-control" id="jumlah" aria-describedby="emailHelp" disabled="">
+                      </div>
+                      <div class="form-group">
+                        <label for="InputHargaBeli">Jumlah Fisik</label>
+                        <input type="text" name="jumlah" class="form-control" id="jumlah" aria-describedby="emailHelp" placeholder="Masukkan Jumlah Fisik">
                       </div>
                       <button type="button" class="btn btn-primary submit-btn" onclick="notaTemp()" id="myBtn2">Submit</button>
                     </fieldset>
@@ -128,60 +112,12 @@
             </div>
           </div>
           <br>
-          <div class="row">
-            <div class="col-lg-8 offset-lg-2">
-              <div class="card-box">
-                <div class="card-block">
-                  <h4 class="page-title">Daftar Obat</h4>
-                  <div class="table-responsive">
-                    <table id="myTable" class="table table-striped mb-0">
-                      <thead>
-                        <tr>
-                          <th>ID Obat</th>
-                          <th>Nama Obat</th>
-                          <th>Harga</th>
-                          <th>Jumlah</th>
-                          <th>Sub Total</th>
-                          <th>Aksi</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-
-                      </tbody>
-                      <tfoot>
-                        <tr>
-                          <th></th>
-                          <th></th>
-                          <th></th>
-                          <th>TOTAL</th>
-                          <th class= "data" id="ttl"></th>
-                          <th></th>
-                        </tr>
-                        <tr>
-                          <th></th>
-                          <th></th>
-                          <th></th>
-                          <th>ONGKIR</th>
-                          <th id="ongkir"></th>
-                          <th></th>
-                        </tr>
-                      </tfoot>
-                    </table>
-                    <br>
-                    <button type="button" id="submitgitu" onclick="submitform()" class="btn btn-primary submit-btn" style="margin-left: 450px;">Submit</button>
-                  </div>
-
-                </div>
-
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </div>
     <div class="sidebar-overlay" data-reff=""></div>
     <script src="../../assets/js/jquery-3.2.1.min.js"></script>
-    <script src="../../assets/js/popper.min.js"></script>
+    <script src="../../ssets/js/popper.min.js"></script>
     <script src="../../assets/js/bootstrap.min.js"></script>
     <script src="../../assets/js/jquery.slimscroll.js"></script>
     <script src="../../assets/js/select2.min.js"></script>

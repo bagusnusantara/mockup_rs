@@ -59,18 +59,12 @@
     <div class="sidebar-inner slimscroll">
         <div id="sidebar-menu" class="sidebar-menu">
             <ul>
-                <li class="menu-title">Kasir</li>
+                <li class="menu-title">Space Rental</li>
+                <li>
+                    <a href="spacerental.html"><i class="fa fa-dashboard"></i> <span>Data Space Rental</span></a>
+                </li>
                 <li class="active">
-                    <a href="rekappembayaran.html"><i class="fa fa-dashboard"></i> <span>Rekap Pembayaran</span></a>
-                </li>
-                <li>
-                    <a href="rawatjalan.html"><i class="fa fa-user-md"></i> <span> Kasir Rawat Jalan</span></a>
-                </li>
-                <li>
-                    <a href="rawatinap.html"><i class="fa fa-wheelchair"></i> <span> Kasir Rawat Inap</span></a>
-                </li>
-                <li>
-                    <a href="obatpasien.html"><i class="fa fa-wheelchair"></i> <span>Kasir Pemberian<br>Obat Pasien</span></a>
+                    <a href="pembayaranrental.html"><i class="fa fa-user-md"></i> <span>Rekap Pembayaran Rental</span></a>
                 </li>
             </ul>
         </div>
@@ -80,7 +74,10 @@
     <div class="content">
         <div class="row">
             <div class="col-sm-4 col-3">
-                <h4 class="page-title">Rekap Pembayaran Pasien</h4>
+                <h4 class="page-title">Rekap Pembayaran Rental</h4>
+            </div>
+            <div class="col-sm-8 col-9 text-right m-b-20">
+                <a href="add-bayarrental.html" class="btn btn-primary float-right btn-rounded"><i class="fa fa-plus"></i>Bayar Rental</a>
             </div>
         </div>
         <div class="row">
@@ -91,9 +88,9 @@
                     <thead>
                         <tr>
                             <th>ID Transaksi</th>
-                            <th>Nama Pasien</th>
-                            <th>Jenis Transaksi</th>
-                            <th>Tanggal Transaksi</th>
+                            <th>Nama Pemilik</th>
+                            <th>Pembayaran Bulan</th>
+                            <th>Tanggal Bayar</th>
                             <th>Total Pembayaran</th>
                             <th>Action</th>
                         </tr>
@@ -101,13 +98,13 @@
                     <tbody>
                         <tr>
                            <td>0001</td>
-                           <td>Yanto</td>
-                           <td>Rawat Jalan</td>
-                           <td>7 May 2015</td>
+                           <td>Fajar</td>
+                           <td>April 2019</td>
+                           <td>7 April 2015</td>
                            <td>Rp 500.000
                            </td>
                            <td>
-                            <a href="detailtransaksi.html"><i class="fa fa-pencil m-r-5"></i>Lihat Detail Transaksi</a>
+                            <a href="detailtransaksirental.html"><i class="fa fa-pencil m-r-5"></i>Lihat Detail Transaksi</a>
                         </td>
                     </tr>
                 </tbody>

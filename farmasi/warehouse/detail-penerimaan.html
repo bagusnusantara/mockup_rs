@@ -2,7 +2,7 @@
 <html lang="en">
 
 
-<!-- employees23:21-->
+<!-- add-employee24:07-->
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
@@ -10,7 +10,6 @@
     <title>Preclinic - Medical & Hospital - Bootstrap 4 Admin Template</title>
     <link rel="stylesheet" type="text/css" href="../../assets/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="../../assets/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="../../assets/css/dataTables.bootstrap4.min.css">
     <link rel="stylesheet" type="text/css" href="../../assets/css/select2.min.css">
     <link rel="stylesheet" type="text/css" href="../../assets/css/bootstrap-datetimepicker.min.css">
     <link rel="stylesheet" type="text/css" href="../../assets/css/style.css">
@@ -24,7 +23,7 @@
     <div class="main-wrapper">
         <div class="header">
          <div class="header-left">
-          <a href="index-2.html" class="logo">
+          <a href="../../index-2.html" class="logo">
            <img src="../../assets/img/logo.png" width="35" height="35" alt=""> <span>Preclinic</span>
        </a>
    </div>
@@ -75,103 +74,97 @@
       <ul style="display: none;">
         <li><a href="stok.html">Stok Obat</a></li>
         <li><a href="mutasistok.html">Mutasi Stok</a></li>
-        <li><a class="active" href="adjustmentstok.html">Adjustment Stok</a></li>
-        <li><a href="penerimaan.html">Penerimaan</a></li>
+        <li><a href="adjustmentstok.html">Adjustment Stok</a></li>
+        <li><a class="active" href="penerimaan.html">Penerimaan</a></li>
     </ul>
-</li>
-</ul>
 </div>
 </div>
 </div>
 <div class="page-wrapper">
     <div class="content">
         <div class="row">
-            <div class="col-sm-4 col-3">
-                <h4 class="page-title">Adjustment Stok</h4>
-            </div>
-            <div class="col-sm-8 col-9 text-right m-b-20">
-                <a href="add-adjustment.html" class="btn btn-primary float-right btn-rounded"><i class="fa fa-plus"></i> Tambah Adjustment</a>
+            <div class="col-lg-8 offset-lg-2">
+                <div class="card-box">
+                    <div class="card-block">
+                        <h5 class="text-bold card-title">Detail Penerimaan Obat</h5>
+                        <div class="table-responsive">
+                            <table class="table table-striped mb-0">
+                                <thead>
+                                    <tr>
+                                        <th>ID Pembelian</th>
+                                        <th>Tanggal</th>
+                                        <th>Supplier</th>
+                                        <th>Jumlah</th>
+                                        <th>Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>19 Maret 2019</td>
+                                        <td>Nikmat</td>
+                                        <td>Rp 3.395.000</td>
+                                        <td><span class="custom-badge status-green">Checked</span></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-12">
-              <div class="table-responsive">
-                <table class="table table-striped custom-table">
-                    <thead>
-                        <tr>
-                            <th>ID Obat</th>
-                            <th>Nama Obat</th>
-                            <th>Qty Sekarang</th>
-                            <th>Qty Fisik</th>
-                            <th>Qty Adj</th>
-                            <th class="text-right">Aksi</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>001</td>
-                            <td>Kasa Pembalut</td>
-                            <td>92</td>
-                            <td>90</td>
-                            <td>2</td>
-                            <td class="text-right">
-                                <div class="dropdown dropdown-action">
-                                    <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
-                                    <div class="dropdown-menu dropdown-menu-right">
-                                        <a class="dropdown-item" href="edit-adjustment.html"><i class="fa fa-pencil m-r-5"></i> Edit</a>
-                                    </div>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>002</td>
-                            <td>Aspartam</td>
-                            <td>114</td>
-                            <td>115</td>
-                            <td>1</td>
-                            <td class="text-right">
-                                <div class="dropdown dropdown-action">
-                                    <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
-                                    <div class="dropdown-menu dropdown-menu-right">
-                                        <a class="dropdown-item" href="edit-adjustment.html"><i class="fa fa-pencil m-r-5"></i> Edit</a>
-                                    </div>
-                                </div>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
+            <div class="col-lg-8 offset-lg-2">
+                <div class="card-box">
+                    <div class="card-block">
+                        <h5 class="text-bold card-title">Form Penerimaan Obat</h5>
+                        <div class="table-responsive">
+                            <table class="table table-striped mb-0">
+                                <thead>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Nama Obat</th>
+                                        <th>Satuan</th>
+                                        <th>Harga</th>
+                                        <th>Jumlah</th>
+                                        <th>Jumlah Masuk</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Kassa Pembalut</td>
+                                        <td>Biji</td>
+                                        <td>Rp 3.395</td>
+                                        <td>1000</td>
+                                        <td><input type="text" value="1000" disabled></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+        <div class="row">
+          <div class="col-lg-8 offset-lg-2">
+            <button type="submit" class="btn btn-primary btn-block" disabled="">Submit</button>
+        </div>
     </div>
-</div>
-</div>
-<div id="delete_employee" class="modal fade delete-modal" role="dialog">
-   <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-     <div class="modal-body text-center">
-      <img src="../../assets/img/sent.png" alt="" width="50" height="46">
-      <h3>Are you sure want to delete this Employee?</h3>
-      <div class="m-t-20"> <a href="#" class="btn btn-white" data-dismiss="modal">Close</a>
-       <button type="submit" class="btn btn-danger">Delete</button>
-   </div>
-</div>
-</div>
-</div>
 </div>
 </div>
 <div class="sidebar-overlay" data-reff=""></div>
 <script src="../../assets/js/jquery-3.2.1.min.js"></script>
 <script src="../../assets/js/popper.min.js"></script>
 <script src="../../assets/js/bootstrap.min.js"></script>
-<script src="../../assets/js/jquery.dataTables.min.js"></script>
-<script src="../../assets/js/dataTables.bootstrap4.min.js"></script>
 <script src="../../assets/js/jquery.slimscroll.js"></script>
 <script src="../../assets/js/select2.min.js"></script>
+<script src="../../assets/js/app.js"></script>
 <script src="../../assets/js/moment.min.js"></script>
 <script src="../../assets/js/bootstrap-datetimepicker.min.js"></script>
-<script src="../../assets/js/app.js"></script>
+
 </body>
 
 
-<!-- employees23:22-->
+<!-- add-employee24:07-->
 </html>
