@@ -4,7 +4,7 @@
             <ul>
                 <li class="menu-title">Main</li>
                 <li>
-                    <a href="../index-2.html"><i class="fas fa-tachometer-alt"></i> <span>Dashboard</span></a>
+                    <a href="hrd_dashboard.blade.php"><i class="fas fa-tachometer-alt"></i> <span>Dashboard</span></a>
                 </li>
                 <li id="mdokter">
                     <a href="hrd_manajemen_dokter.blade.php"><i class="fas fa-user-md"></i> <span>Manajemen Dokter</span></a>
