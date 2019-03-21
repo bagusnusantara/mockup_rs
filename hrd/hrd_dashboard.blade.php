@@ -401,5 +401,11 @@
     </div>
 </div>
 <?php include ('hrd_temp_footer.blade.php') ?>
+<script>
+    $(document).ready(function () {
+        $('.nav>li').removeClass('active');
+        $('#mdashboard').addClass('active');
+    });
+</script>
 </body>
 </html>
