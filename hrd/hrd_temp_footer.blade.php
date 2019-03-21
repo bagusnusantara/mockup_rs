@@ -12,4 +12,3 @@
 <script src="../assets/js/jquery.slimscroll.js"></script>
 <script src="../assets/js/Chart.bundle.js"></script>
 <script src="../assets/js/chart.js"></script>
-<script src="../assets/js/app.js"></script>
