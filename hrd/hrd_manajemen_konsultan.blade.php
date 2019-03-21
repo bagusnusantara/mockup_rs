@@ -27,10 +27,10 @@
         <div class="content">
             <div class="row">
                 <div class="col-sm-4 col-3">
-                    <h4 class="page-title">Bidan</h4>
+                    <h4 class="page-title">Konsultan Kesehatan</h4>
                 </div>
                 <div class="col-sm-8 col-9 text-right m-b-20">
-                    <a href="../add-patient.html" class="btn btn btn-primary btn-rounded float-right"><i class="fa fa-plus"></i> Tambah Bidan</a>
+                    <a href="../add-patient.html" class="btn btn btn-primary btn-rounded float-right"><i class="fa fa-plus"></i> Tambah Pegawai</a>
                 </div>
             </div>
             <div class="row">
@@ -125,7 +125,7 @@
             <div class="modal-content">
                 <div class="modal-body text-center">
                     <img src="../assets/img/sent.png" alt="" width="50" height="46">
-                    <h3>Apakah anda ingin menghapus bidan ini?</h3>
+                    <h3>Apakah anda ingin menghapus pegawai ini?</h3>
                     <div class="m-t-20"> <a href="#" class="btn btn-white" data-dismiss="modal">Tutup</a>
                         <button type="submit" class="btn btn-danger">Hapus</button>
                     </div>
@@ -139,7 +139,7 @@
 <script>
     $(document).ready(function () {
         $('.nav>li').removeClass('active');
-        $('#mbidan').addClass('active');
+        $('#mkonsultan').addClass('active');
     });
 </script>
 </body>

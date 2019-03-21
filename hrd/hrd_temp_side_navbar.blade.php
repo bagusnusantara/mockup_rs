@@ -18,8 +18,8 @@
                 <li id="mpegawai">
                     <a href="hrd_manajemen_kepegawaian.blade.php"><i class="fas fa-briefcase"></i> <span>Manajemen<br>Kepegawaian</span></a>
                 </li>
-                <li id="mpegawai">
-                    <a href="hrd_manajemen_kepegawaian.blade.php"><i class="fas fa-phone-volume"></i> <span>Manajemen Konsultan<br>Kesehatan</span></a>
+                <li id="mkonsultan">
+                    <a href="hrd_manajemen_konsultan.blade.php"><i class="fas fa-phone-volume"></i> <span>Manajemen Konsultan<br>Kesehatan</span></a>
                 </li>
             </ul>
         </div>
