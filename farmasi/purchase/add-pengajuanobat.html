@@ -69,8 +69,8 @@
             <li class="submenu">
               <a href="#"><i class="fa fa-user"></i> <span>Purchase</span> <span class="menu-arrow"></span></a>
               <ul style="display: none;">
-                <li><a href="pengajuanobat.html">Pengajuan Pembelian</a></li>
-                <li><a class="active"  href="pembelianobat.html">Riwayat Pembelian</a></li>
+                <li><a class="active" href="pengajuanobat.html">Pengajuan Pembelian</a></li>
+                <li><a href="pembelianobat.html">Riwayat Pembelian</a></li>
                 <li><a href="returobat.html">Retur Pembelian</a></li>
               </ul>
             </li>
@@ -91,25 +91,19 @@
               <div class="col-lg-8 offset-lg-2">
                 <div class="card-box">
                   <div class="card-block">
-                    <h4 class="page-title">Tambah Pembelian</h4>
+                    <h4 class="page-title">Tambah Pengajuan Pembelian</h4>
                     <form class="">
                       <div class="form-group">
-                        <label for="inputIdObat">Supplier</label>
-                        <select class="form-control" name="nama_supplier" id="nama_supplier">
-                          <option>Sakinah</option>
-                          <option>Pasar Baru</option>
-                        </select>
+                        <label for="InputHargaBeli">Nama Obat</label>
+                        <input type="text" name="jumlah" class="form-control" id="jumlah" aria-describedby="emailHelp" placeholder="Masukkan Nama Obat">
                       </div>
                       <div class="form-group">
-                        <label for="InputHargaBeli">Nama Obat</label>
-                        <select class="form-control" name="nama_Obat" id="nama_Obat">
-                          <option value="" selected=""></option>
-                          <option></option>
-                        </select>
+                        <label for="InputHargaBeli">Spesifikasi</label>
+                        <input type="text" name="jumlah" class="form-control" id="jumlah" aria-describedby="emailHelp" placeholder="Masukkan Spesifikasi Obat">
                       </div>
                       <div class="form-group">
                         <label for="InputHargaBeli">Jumlah</label>
-                        <input type="text" name="jumlah" class="form-control" id="jumlah" aria-describedby="emailHelp" placeholder="Masukkan Jumlah Obat">
+                        <input type="number" name="jumlah" class="form-control" id="jumlah" aria-describedby="emailHelp" placeholder="Masukkan Jumlah Obat">
                       </div>
                       <button type="button" class="btn btn-primary submit-btn" onclick="notaTemp()" id="myBtn2">Submit</button>
                     </fieldset>
@@ -119,54 +113,6 @@
             </div>
           </div>
           <br>
-          <div class="row">
-            <div class="col-lg-8 offset-lg-2">
-              <div class="card-box">
-                <div class="card-block">
-                  <h4 class="page-title">Daftar Obat</h4>
-                  <div class="table-responsive">
-                    <table id="myTable" class="table table-striped mb-0">
-                      <thead>
-                        <tr>
-                          <th>ID Obat</th>
-                          <th>Nama Obat</th>
-                          <th>Harga</th>
-                          <th>Jumlah</th>
-                          <th>Sub Total</th>
-                          <th>Aksi</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-
-                      </tbody>
-                      <tfoot>
-                        <tr>
-                          <th></th>
-                          <th></th>
-                          <th></th>
-                          <th>TOTAL</th>
-                          <th class= "data" id="ttl"></th>
-                          <th></th>
-                        </tr>
-                        <tr>
-                          <th></th>
-                          <th></th>
-                          <th></th>
-                          <th>ONGKIR</th>
-                          <th id="ongkir"></th>
-                          <th></th>
-                        </tr>
-                      </tfoot>
-                    </table>
-                    <br>
-                    <button type="button" id="submitgitu" onclick="submitform()" class="btn btn-primary submit-btn" style="margin-left: 450px;">Submit</button>
-                  </div>
-
-                </div>
-
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </div>

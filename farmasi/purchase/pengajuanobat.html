@@ -69,9 +69,9 @@
         <li class="submenu">
           <a href="#"><i class="fa fa-user"></i> <span>Purchase</span> <span class="menu-arrow"></span></a>
           <ul style="display: none;">
-            <li><a href="pengajuanobat.html">Pengajuan Pembelian</a></li>
+            <li><a class="active" href="pengajuanobat.html">Pengajuan Pembelian</a></li>
             <li><a href="pembelianobat.html">Riwayat Pembelian</a></li>
-            <li><a class="active" href="returobat.html">Retur Pembelian</a></li>
+            <li><a href="returobat.html">Retur Pembelian</a></li>
           </ul>
         </li>
         <li class="submenu">
@@ -89,10 +89,10 @@
       <div class="content">
         <div class="row">
           <div class="col-sm-4 col-3">
-            <h4 class="page-title">Data Retur Pembelian</h4>
+            <h4 class="page-title">Daftar Pengajuan Pembelian Obat</h4>
           </div>
           <div class="col-sm-8 col-9 text-right m-b-20">
-            <a href="add-retur.html" class="btn btn-primary float-right btn-rounded"><i class="fa fa-plus"></i> Tambah Retur</a>
+            <a href="add-pengajuanobat.html" class="btn btn-primary float-right btn-rounded"><i class="fa fa-plus"></i> Tambah Pengajuan</a>
           </div>
         </div>
         <div class="row">
@@ -101,25 +101,33 @@
               <table class="table table-striped custom-table">
                 <thead>
                   <tr>
-                    <th>ID Retur</th>
-                    <th>Status</th>
-                    <th>Faktur Pembelian</th>
-                    <th>Supplier</th>
-                    <th>Pelaksana</th>
-                    <th>Tgl Pengembalian</th>
+                    <th>ID Pengajuan</th>
+                    <th>Tanggal</th>
+                    <th>Nama Obat</th>
+                    <th>Spesifikasi</th>
+                    <th>Jumlah</th>
                     <th class="text-right">Aksi</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
                     <td>1</td>
-                    <td>Sementara</td>
-                    <td>A00001</td>
-                    <td>Sakinah</td>
-                    <td>Kiki</td>
-                    <td>20-03-2019</td>
-                    <td class="text-right">
-                      <a href="detailretur.html"><i class="fa fa-pencil m-r-5"></i>Lihat Detail Retur</a></a>
+                    <td>2019-03-19</td>
+                    <td>Ambroxol</td>
+                    <td>sir. 15mg/ml, btl. 60 ml</td>
+                    <td>1000</td>
+                    <td>
+                      <a href="#" class="btn btn-primary float-right btn-rounded">Delete</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>2018-11-22</td>
+                    <td>Cecyl</td>
+                    <td>kaps. 200 mg @ 50's</td>
+                    <td>500</td>
+                    <td>
+                        <a href="#" class="btn btn-primary float-right btn-rounded">Delete</a>
                     </td>
                   </tr>
                 </tbody>
