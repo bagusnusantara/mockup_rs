@@ -4,7 +4,7 @@
             <ul>
                 <li class="menu-title">Main</li>
                 <li id="nav-dashboard">
-                    <a href="../index-2.html"><i class="fas fa-tachometer-alt"></i> <span>Dashboard</span></a>
+                    <a href="poli_gigi_dashboard.blade.php"><i class="fas fa-tachometer-alt"></i> <span>Dashboard</span></a>
                 </li>
                 <li id="nav-antrian">
                     <a href="poli_gigi_antrian.blade.php"><i class="fas fa-users"></i> <span>Antrian</span></a>
