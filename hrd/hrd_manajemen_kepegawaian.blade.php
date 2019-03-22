@@ -27,7 +27,7 @@
         <div class="content">
             <div class="row">
                 <div class="col-sm-4 col-3">
-                    <h4 class="page-title">Dokter</h4>
+                    <h4 class="page-title">Kepegawaian</h4>
                 </div>
                 <div class="col-sm-8 col-9 text-right m-b-20">
                     <a href="../add-patient.html" class="btn btn btn-primary btn-rounded float-right"><i class="fa fa-plus"></i> Tambah Pegawai</a>
@@ -36,7 +36,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="table-responsive">
-                        <table class="table table-border table-striped custom-table datatable mb-0">
+                        <table id="datatables-kepegawaian" class="table table-border table-striped custom-table datatable mb-0">
                             <thead>
                             <tr>
                                 <th>Name</th>
