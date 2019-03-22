@@ -12,9 +12,6 @@
                 <li id="nav-pemeriksaan">
                     <a href="poli_gigi_pemeriksaan.blade.php"><i class="fas fa-user-md"></i> <span>Pemeriksaan</span></a>
                 </li>
-                <li id="nav-rekammedis">
-                    <a href="poli_gigi_rekam_medis.blade.php"><i class="fas fa-notes-medical"></i> <span>Rekam Medis</span></a>
-                </li>
             </ul>
         </div>
     </div>
