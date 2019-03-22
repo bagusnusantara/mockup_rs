@@ -28,63 +28,128 @@
                     <h4 class="page-title">Pemeriksaan Pasien</h4>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="card-box">
-                        <h4 class="card-title">Basic Inputs</h4>
-                        <form action="#">
-                            <div class="form-group row">
-                                <label class="col-form-label col-md-2" for="tekanan_darah_atas">Tekanan Darah Atas</label>
-                                <div class="col-md-10">
-                                    <input type="text" class="form-control" id="tekanan_darah_atas" name="tekanan_darah_atas">
+
+            <div class="card-box profile-header">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="profile-view">
+                            <div class="profile-img-wrap">
+                                <div class="profile-img">
+                                    <a href="#"><img class="avatar" src="../../assets/img/doctor-03.jpg" alt=""></a>
                                 </div>
                             </div>
-                            <div class="form-group row">
-                                <label class="col-form-label col-md-2" for="tekanan_darah_bawah">Tekanan Darah Bawah</label>
-                                <div class="col-md-10">
-                                    <input type="text" class="form-control" id="tekanan_darah_bawah" name="tekanan_darah_bawah">
+                            <div class="profile-basic">
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <div class="profile-info-left">
+                                            <h3 class="user-name m-t-0 mb-0">Cristina Groves</h3>
+                                            <small class="text-muted">Pasien</small>
+                                            <div class="staff-id">ID Pasien : P-0001</div>
+                                            <div class="staff-msg"><a href="../../chat.html" class="btn btn-primary">Send Message</a></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <ul class="personal-info">
+                                            <li>
+                                                <span class="title">Telpon:</span>
+                                                <span class="text"><a href="">770-889-6484</a></span>
+                                            </li>
+                                            <li>
+                                                <span class="title">Tanggal Lahir:</span>
+                                                <span class="text">3 Maret 1990</span>
+                                            </li>
+                                            <li>
+                                                <span class="title">Umur:</span>
+                                                <span class="text">29 Tahun</span>
+                                            </li>
+                                            <li>
+                                                <span class="title">Address:</span>
+                                                <span class="text">714 Burwell Heights Road, Bridge City, TX, 77611</span>
+                                            </li>
+                                            <li>
+                                                <span class="title">Jenis Kelamin:</span>
+                                                <span class="text">Perempuan</span>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="form-group row">
-                                <label class="col-form-label col-md-2" for="tekanan_darah_atas">Riwayat Penyakit</label>
-                                <div class="col-md-10">
-                                    <input type="text" class="form-control" id="tekanan_darah_atas" name="tekanan_darah_atas">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="profile-tabs">
+                <ul class="nav nav-tabs nav-tabs-bottom">
+                    <li class="nav-item"><a class="nav-link active" href="#pemeriksaan" data-toggle="tab">Pemeriksaan</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#rekammedis" data-toggle="tab">Rekam Medis</a></li>
+                </ul>
+
+                <div class="tab-content">
+                    <div class="tab-pane show active" id="pemeriksaan">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="card-box">
+                                    <h3 class="card-title">Pemeriksaan</h3>
+                                    <form action="#">
+                                        <div class="form-group row">
+                                            <label class="col-form-label col-md-2" for="tekanan_darah_atas">Tekanan Darah Atas</label>
+                                            <div class="col-md-10">
+                                                <input type="text" class="form-control" id="tekanan_darah_atas" name="tekanan_darah_atas">
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label class="col-form-label col-md-2" for="tekanan_darah_bawah">Tekanan Darah Bawah</label>
+                                            <div class="col-md-10">
+                                                <input type="text" class="form-control" id="tekanan_darah_bawah" name="tekanan_darah_bawah">
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label class="col-form-label col-md-2" for="tekanan_darah_atas">Riwayat Penyakit</label>
+                                            <div class="col-md-10">
+                                                <input type="text" class="form-control" id="tekanan_darah_atas" name="tekanan_darah_atas">
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label class="col-form-label col-md-2" for="tekanan_darah_atas">Subjektif</label>
+                                            <div class="col-md-10">
+                                                <input type="text" class="form-control" id="tekanan_darah_atas" name="tekanan_darah_atas">
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label class="col-form-label col-md-2" for="tekanan_darah_atas">Objektif</label>
+                                            <div class="col-md-10">
+                                                <input type="text" class="form-control" id="tekanan_darah_atas" name="tekanan_darah_atas">
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label class="col-form-label col-md-2" for="tekanan_darah_atas">Diagnosa</label>
+                                            <div class="col-md-10">
+                                                <input type="text" class="form-control" id="tekanan_darah_atas" name="tekanan_darah_atas">
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label class="col-form-label col-md-2" for="tekanan_darah_atas">Planning</label>
+                                            <div class="col-md-10">
+                                                <input type="text" class="form-control" id="tekanan_darah_atas" name="tekanan_darah_atas">
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label class="col-form-label col-md-2" for="tekanan_darah_atas">Resep</label>
+                                            <div class="col-md-10">
+                                                <input type="text" class="form-control" id="tekanan_darah_atas" name="tekanan_darah_atas">
+                                            </div>
+                                        </div>
+                                        <div class="m-t-20 text-center">
+                                            <button class="btn btn-primary submit-btn">Simpan</button>
+                                        </div>
+                                    </form>
                                 </div>
                             </div>
-                            <div class="form-group row">
-                                <label class="col-form-label col-md-2" for="tekanan_darah_atas">Subjektif</label>
-                                <div class="col-md-10">
-                                    <input type="text" class="form-control" id="tekanan_darah_atas" name="tekanan_darah_atas">
-                                </div>
-                            </div>
-                            <div class="form-group row">
-                                <label class="col-form-label col-md-2" for="tekanan_darah_atas">Objektif</label>
-                                <div class="col-md-10">
-                                    <input type="text" class="form-control" id="tekanan_darah_atas" name="tekanan_darah_atas">
-                                </div>
-                            </div>
-                            <div class="form-group row">
-                                <label class="col-form-label col-md-2" for="tekanan_darah_atas">Diagnosa</label>
-                                <div class="col-md-10">
-                                    <input type="text" class="form-control" id="tekanan_darah_atas" name="tekanan_darah_atas">
-                                </div>
-                            </div>
-                            <div class="form-group row">
-                                <label class="col-form-label col-md-2" for="tekanan_darah_atas">Planning</label>
-                                <div class="col-md-10">
-                                    <input type="text" class="form-control" id="tekanan_darah_atas" name="tekanan_darah_atas">
-                                </div>
-                            </div>
-                            <div class="form-group row">
-                                <label class="col-form-label col-md-2" for="tekanan_darah_atas">Resep</label>
-                                <div class="col-md-10">
-                                    <input type="text" class="form-control" id="tekanan_darah_atas" name="tekanan_darah_atas">
-                                </div>
-                            </div>
-                            <div class="m-t-20 text-center">
-                                <button class="btn btn-primary submit-btn">Simpan</button>
-                            </div>
-                        </form>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="rekammedis">
+                        Tab content 2
                     </div>
                 </div>
             </div>
